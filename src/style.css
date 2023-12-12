@@ -1,0 +1,39 @@
+#root{
+   --Color-IMFUR: rgba(146,31,60,255);
+   --Color-IMFURdark: rgba(146,31,60,255);
+   --Color-Txt: rgb(22, 0, 6);
+   --Color-TxtAct: rgb(158, 53, 80);
+}
+
+body{
+    color: antiquewhite;
+    background-color: rgb(194, 91, 105);
+}
+
+.IMFURCOLOR{
+    background-color: var(--Color-IMFUR);
+    box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.445);
+}
+
+.IMFURCOLORdark{
+    background-color: rgb(131, 26, 52);
+}
+
+.colortxt{
+    color: var(--Color-Txt) !important;
+    transform: 2s ease-in !important;
+}
+
+.colortxt:hover{
+    color: aliceblue !important;
+}
+
+.colortxt:active{
+    color: var(--Color-TxtAct)!important;
+}
+
+.sticky{
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+}

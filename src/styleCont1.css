@@ -1,0 +1,70 @@
+:root{
+
+    --color-font: rgb(0,0,0);
+    --color-tittle-yellowFont: rgb(208, 148, 84);
+    --color-strong: rgb(132, 20, 52);
+}
+
+
+.txt{
+    color: var(--color-font);
+}
+
+.tittletxt{
+    color: var(--color-tittle-yellowFont);
+    font-weight: 900;
+}
+
+.padding{
+    padding-top: 7rem;
+}
+.orden{
+    margin-top: 2rem;
+}
+
+.img{
+    border-radius: 10px;
+    width: 100%;
+    box-shadow: 2px 4px 4px 1px rgba(0, 0, 0, 0.945);
+}
+
+.img-carrusel{
+    width: 100%;
+    height: 80%;
+}
+
+/* Establece un tamaño específico para las imágenes dentro del carrusel */
+.carousel-inner img {
+    width: 100%; /* Establece el ancho al 100% del contenedor */
+    height: 100%; /* Establece la altura al 100% del contenedor */
+    object-fit: cover; /* Ajusta la imagen manteniendo la proporción y cubriendo el contenedor */
+}
+
+/* Opcional: Puedes establecer un tamaño específico para el contenedor del carrusel */
+.carousel-inner {
+    width: 100%; /* Establece el ancho del contenedor al 100% del padre */
+    height: auto; /* Establece la altura deseada del contenedor */
+}
+
+/* Otras reglas de estilo según sea necesario */
+.carousel-caption {
+    color: #fff; /* Establece el color del texto en las leyendas */
+}
+
+.background{
+    background-color: rgba(0, 0, 0, 0.13);
+    filter: blur(100%);
+}
+strong{
+ color: var(--color-strong);
+}
+
+.tag{
+    color: black;
+    text-decoration: none;
+    transition: ease-out .2s;
+}
+
+.tag:hover{
+    color: aliceblue;
+}
